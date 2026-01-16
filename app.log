@@ -1,0 +1,23 @@
+> backend@1.0.0 dev
+> nodemon src/server.ts
+
+[nodemon] 3.1.11
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: ts,json
+[nodemon] starting `ts-node src/server.ts`
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+Swagger docs available at http://localhost:5000/api-docs
+Server running on port 5000
+POST /api/v1/auth/register 201 184.652 ms - 440
+GET /api/v1/products 304 12.361 ms - -
+GET /api/v1/products 304 4.363 ms - -
+POST /api/v1/products 201 23.444 ms - 223
+GET /api/v1/products 200 6.231 ms - 304
+POST /api/v1/products 201 16.676 ms - 221
+GET /api/v1/products 200 6.827 ms - 605
+DELETE /api/v1/products/1dca3ee8-4871-4c63-8f16-98bfc5f690d8 204 12.472 ms - -
+GET /api/v1/products 200 4.274 ms - 302
+POST /api/v1/auth/register 201 86.335 ms - 439
+GET /api/v1/products 304 5.601 ms - -
+GET /api/v1/products 304 4.572 ms - -
